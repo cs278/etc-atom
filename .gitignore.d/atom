@@ -1,0 +1,9 @@
+*
+!/.atom
+!/.atom/*.coffee
+!/.atom/*.cson
+!/.atom/*.less
+!/.atom/.gitignore
+!/.gitignore.d
+!/.gitignore.d/atom
+!/README.md
