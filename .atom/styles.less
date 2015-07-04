@@ -1,0 +1,13 @@
+.favicon(@name; @url) {
+    .icon-@{name}:before {
+        background: url("https://www.google.com/s2/favicons?domain=@{url}") no-repeat center center;
+        background-size: contain;
+        height: 16px;
+        width: 16px;
+        display: inline-block;
+        content: '\a0';
+    }
+}
+
+.favicon(ww, 'www.widerwallet.com');
+.favicon(nb, 'www.networkbenefits.co.uk');
