@@ -1,0 +1,22 @@
+"*":
+  welcome:
+    showOnStartup: false
+  core:
+    projectHome: "~/projects"
+    disabledPackages: [
+      "exception-reporting"
+      "metrics"
+    ]
+    autoHideMenuBar: true
+  editor:
+    fontFamily: "Droid Sans Mono"
+    fontSize: 13
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    tabLength: 2
+  linter: {}
+  "linter-puppet-lint":
+    puppetLintArguments: "--no-80chars-check"
+  "tree-view":
+    showOnRightSide: false
