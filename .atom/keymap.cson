@@ -6,3 +6,11 @@
 
 'atom-text-editor':
     'ctrl-\'': 'aligner:align'
+
+'.platform-win32':
+  'ctrl-alt-p': 'project-manager:toggle'
+  'alt-shift-P': 'unset!'
+
+'.platform-linux':
+  'ctrl-alt-p': 'project-manager:toggle'
+  'alt-shift-P': 'unset!'
