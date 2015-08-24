@@ -8,6 +8,7 @@
       "metrics"
     ]
     autoHideMenuBar: true
+    excludeVcsIgnoredPaths: false
   editor:
     fontFamily: "Droid Sans Mono"
     fontSize: 13
