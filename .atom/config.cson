@@ -6,6 +6,7 @@
     disabledPackages: [
       "exception-reporting"
       "metrics"
+      "wrap-guide"
     ]
     autoHideMenuBar: true
     excludeVcsIgnoredPaths: false
@@ -21,3 +22,12 @@
     puppetLintArguments: "--no-80chars-check"
   "tree-view":
     showOnRightSide: false
+  "multi-wrap-guide":
+    # Soft/hard/GitHub
+    columns: [
+      80
+      120
+      104
+    ]
+    locked: true
+    silent: true
