@@ -1,15 +1,22 @@
 "*":
-  welcome:
-    showOnStartup: false
   core:
-    projectHome: "~/projects"
+    autoHideMenuBar: true
     disabledPackages: [
       "exception-reporting"
       "metrics"
       "wrap-guide"
     ]
-    autoHideMenuBar: true
     excludeVcsIgnoredPaths: false
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "__CG__*.php"
+    ]
+    projectHome: "~/projects"
   editor:
     fontFamily: "Droid Sans Mono"
     fontSize: 13
@@ -17,12 +24,12 @@
     showIndentGuide: true
     showInvisibles: true
     tabLength: 2
+  "file-icons":
+    onChanges: true
   linter: {}
   "linter-puppet-lint":
-    puppetLintArguments: "--no-80chars-check"
     oldVersion: false
-  "tree-view":
-    showOnRightSide: false
+    puppetLintArguments: "--no-80chars-check"
   "multi-wrap-guide":
     # Soft/hard/GitHub
     columns: [
@@ -32,3 +39,7 @@
     ]
     locked: true
     silent: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
