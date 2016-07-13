@@ -6,7 +6,6 @@
       "metrics"
       "wrap-guide"
     ]
-    excludeVcsIgnoredPaths: false
     ignoredNames: [
       ".git"
       ".hg"
