@@ -1,9 +1,9 @@
 *
-!/.atom
-!/.atom/*.coffee
-!/.atom/*.cson
-!/.atom/*.less
+!/.atom/config.cson
 !/.atom/.gitignore
-!/.gitignore.d
+!/.atom/init.coffee
+!/.atom/keymap.cson
+!/.atom/snippets.cson
+!/.atom/styles.less
 !/.gitignore.d/atom
 !/README.md
