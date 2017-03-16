@@ -16,6 +16,7 @@
       "__CG__*.php"
     ]
     projectHome: "~/projects"
+    telemetryConsent: "no"
   editor:
     fontFamily: "Inconsolata"
     fontSize: 13
